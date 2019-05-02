@@ -168,6 +168,9 @@ footer {
         margin: 0px;
         padding: 15px;
     }
+    .container {
+        margin: 0px 5px 5px 0px;
+    }
     footer {
         position: initial;
     }
