@@ -36,6 +36,7 @@ nav {
 }
 nav ul {
     margin: 0px;
+    padding: 0px;
 }
 nav li {
     list-style: none;
@@ -124,3 +125,51 @@ footer {
       width: 100%;
       margin-bottom: 10px;
   }
+
+  /* Media Queries - Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px. */
+
+@media screen and (max-width: 980px) {
+    header, footer {
+        width: 100%
+    }
+    .title {
+        margin-left: 5%;
+    }
+    nav {
+        margin-right:5%;
+    }
+    main {
+        width: 55%;
+        margin-left: 5%;
+        margin-right: 95%;
+    }
+    .container {
+        margin: 0px 6px 5px 0px;
+    }
+
+}
+ 
+@media screen and (max-width: 768px) {
+    main {
+        width: 85%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        margin: 20px;
+    }
+    .title, nav {
+        float: none;
+        text-align: center;
+        margin: 0px;
+        padding: 15px;
+    }
+    footer {
+        position: initial;
+    }
+
+}
