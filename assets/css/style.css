@@ -155,7 +155,7 @@ footer {
 
     .container {
         margin: 20px 0;
-        width: 40%;
+        width: 45%;
     }
     .bottom-center, .portfolio-img {
         width: 100%
@@ -213,5 +213,6 @@ footer {
     .bottom-center {
         font-size: .8rem;
         padding: 2px 0;
+        bottom: 15px;
     }
 }
