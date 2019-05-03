@@ -85,9 +85,10 @@ footer {
     bottom: 0px;
 }
 
-.float-left {
+.bio-img {
     float: left;
     padding-right: 25px;
+    padding-bottom: 20px;
 }
 .button {
     background-color: #4aaaa5;
@@ -130,47 +131,65 @@ footer {
 
 @media screen and (max-width: 980px) {
     header, footer {
-        width: 100%
+        width: 100%;
+        position: initial;
     }
+
     .title {
         margin-left: 5%;
     }
+
     nav {
-        margin-right:5%;
+        margin-right: 25px;
     }
+
     main {
         width: 55%;
         margin-left: 5%;
         margin-right: 95%;
     }
+
     .container {
-        margin: 0px 6px 5px 0px;
+        margin: 20px 0;
     }
 
+    .float-right {
+        float: right;
+    }
 }
- 
+
+
 @media screen and (max-width: 768px) {
     main {
-        width: 85%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .bio-img {
+        width: 300px;
+        height: 300px;
+    }
 }
 
+
 @media screen and (max-width: 640px) {
-    main {
-        margin: 20px;
-    }
     .title, nav {
         float: none;
         text-align: center;
         margin: 0px;
         padding: 15px;
     }
+
+    main {
+        width: 85%;
+        margin: 10px auto;
+    }
+
     .container {
         margin: 0px 5px 5px 0px;
     }
+
     footer {
         position: initial;
     }
