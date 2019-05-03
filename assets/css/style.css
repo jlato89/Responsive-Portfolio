@@ -7,7 +7,7 @@ html {
 body {
     min-height: 95%;
     position: relative;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -86,8 +86,8 @@ footer {
     padding: 1rem;
     border-top: 8px solid #4aaaa5;
     position: absolute;
-    bottom: 0;
     right: 0;
+    bottom: 0;
     left: 0;
 }
 
